@@ -1,6 +1,6 @@
 class ReplyController < ApplicationController
   
   def encourage
-    @content = Content.new
+    @content = Content.create
   end
 end
