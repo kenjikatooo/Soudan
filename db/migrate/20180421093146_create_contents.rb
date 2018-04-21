@@ -1,7 +1,7 @@
 class CreateContents < ActiveRecord::Migration[5.1]
   def change
     create_table :contents do |t|
-      t.text :hitokoto
+      t.string :hitokoto
       t.datetime :created_at
 
       t.timestamps
