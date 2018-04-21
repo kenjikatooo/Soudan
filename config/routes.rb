@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
-  get '/home', to: 'home#hello'
+
+  root 'home#hello'
+  get '/reply', to: 'reply#encourage'
+
 
 end
