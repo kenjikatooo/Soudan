@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hitokoto: MyText
+  created_at: 2018-04-21 18:31:46
+
+two:
+  hitokoto: MyText
+  created_at: 2018-04-21 18:31:46
