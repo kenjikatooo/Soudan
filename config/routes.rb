@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'home#hello'
-  get '/reply', to: 'reply#encourage'
 
+  root 'contents#home'
+  get 'contents/reply'
+  resources :contents
 
 end

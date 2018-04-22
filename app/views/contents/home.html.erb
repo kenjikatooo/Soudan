@@ -1,0 +1,11 @@
+<h1>Soudan</h1>
+<p>いまの気持ちは？</p>
+
+<div>
+<% @content=Content.new %>
+<%= form_for(@content, url:contents_path) do |f| %>
+    <%= f.text_area :hitokoto, class:"hitokoto_form" %>
+    <br>
+    <%= f.submit "はげましてもらう", class:"square_btn" %>
+<% end %>
+</div>
