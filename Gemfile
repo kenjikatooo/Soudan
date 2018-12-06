@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.1.4'
+gem 'rails',        '>= 5.1.4'
+gem "activejob",    ">= 5.1.6.1"
 gem 'bcrypt',       '3.1.11'
 gem 'faker',        '1.7.3'
 gem 'will_paginate', '3.1.6'
